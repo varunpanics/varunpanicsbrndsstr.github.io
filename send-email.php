@@ -33,7 +33,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 //$headers .= 'To: Mary <mary@example.com>, Kelly <kelly@example.com>' . "\r\n";
 $headers .= 'From: '.$firstname.'<'.$emailaddress.'>' . "\r\n";
 //$headers .= 'Cc: birthdayarchive@example.com' . "\r\n";
-//$headers .= 'Bcc: varunpanicker.87@gmail.com' . "\r\n";
+$headers .= 'Bcc: emeli@brndstr.com' . "\r\n";
 
 // Mail it
  $result = mail($to,$subject,$message,$headers);  
